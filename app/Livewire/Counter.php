@@ -9,6 +9,7 @@ class Counter extends Component
     public $count = 1;
     public $title_site = "Loka Academy Indonesia - Belajar Online";
     public $concepts;
+    public $portofolio;
  
     public function increment()
     {
@@ -23,7 +24,9 @@ class Counter extends Component
     public function getConcepts()
     {
         $concepts = json_decode(file_get_contents(storage_path() . "/app/public/concept.json"));
+        $portofolio = json_decode(file_get_contents(storage_path() . "/app/public/portofolio.json"));
         $this->concepts = $concepts->concepts;
+        $this->portofolio = $portofolio->portofolio;
     }
 
     public function mount()

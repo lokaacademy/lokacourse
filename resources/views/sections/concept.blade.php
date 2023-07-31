@@ -46,17 +46,15 @@
           <i class="fas fa-user-friends text-xl"></i>
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
-          Belajar bersama Loka Academy menyenangkan
+          {{ $portofolio[1]->title }}
         </h3>
         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-        Di sini, kamu akan bertemu dengan komunitas seru yang seumur denganmu. 
-        Jadi, kamu bisa belajar dan berkembang bersama-sama. 
-        Kenalan, jalin pertemanan baru, dan raih mimpi IT-mu bersama teman-teman se-ITer
+        {{ $portofolio[1]->description }}
         </p>
       </div>
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
-          <img alt="..." src="assets/images/bootcamp-1.jpeg" class="w-full align-middle rounded-t-lg"/>
+          <img alt="..." src={{ $portofolio[0]->images }} class="w-full align-middle rounded-t-lg"/>
           <blockquote class="relative p-8 mb-4">
             <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 583 95"
@@ -65,10 +63,10 @@
               <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
             </svg>
             <h4 class="text-xl font-bold text-black">
-                Bootcamp Batch 1
+                {{ $portofolio[0]->title }}
             </h4>
             <p class="text-md font-light mt-2 text-gray">
-                Kegiatan belajar meliputi : Agile Product Management, UI/UX, Frontend Programming, Backend Programming dan Soft Skill.
+                {{ $portofolio[0]->description }}
             </p>
           </blockquote>
         </div>

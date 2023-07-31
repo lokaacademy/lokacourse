@@ -1,0 +1,13 @@
+{
+    "portofolio":[
+        {
+            "title": "Bootcamp Batch 1",
+            "description": "Kegiatan belajar meliputi : Agile Product Management, UI/UX, Frontend Programming, Backend Programming dan Soft Skill.",
+            "images": "assets/images/bootcamp-1.jpeg"
+        },
+        {
+            "title": "Belajar bersama Loka Academy menyenangkan",
+            "description": "Di sini, kamu akan bertemu dengan komunitas seru yang seumur denganmu. Jadi, kamu bisa belajar dan berkembang bersama-sama. Kenalan, jalin pertemanan baru, dan raih mimpi IT-mu bersama teman-teman se-ITer"
+        }
+     ]
+}
