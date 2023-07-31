@@ -4,9 +4,9 @@
     </x-slot>
    
     <main>
-        <div class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
-            @include('sections.logo')
-        </div>
+      <div class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-center px-2 py-3 ">
+          @include('sections.logo')
+      </div>
         
       <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
         @include('components.banner')
