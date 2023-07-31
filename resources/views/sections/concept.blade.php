@@ -6,10 +6,9 @@
             <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
               <i class="fas fa-code"></i>
             </div>
-            <h6 class="text-xl font-semibold">Hands-On Learning</h6>
+            <h6 class="text-xl font-semibold">{{ $concepts[0]->title }}</h6>
             <p class="mt-2 mb-4 text-gray-600">
-              Belajar akan lebih menyenangkan dan hasilnya lebih maksimal ketika kamu bisa langsung berinteraksi 
-              dengan teknologi yang sebenarnya.
+              {{ $concepts[0]->description }}
             </p>
           </div>
         </div>
@@ -20,10 +19,9 @@
             <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
               <i class="fas fa-graduation-cap"></i>
             </div>
-            <h6 class="text-xl font-semibold">Digital Talent Bootcamp</h6>
+            <h6 class="text-xl font-semibold">{{ $concepts[1]->title }}</h6>
             <p class="mt-2 mb-4 text-gray-600">
-              Siapkan diri untuk bertransformasi menjadi profesional IT yang berkualitas tinggi 
-              dan siap bersaing di pasar kerja yang kompetitif.
+              {{ $concepts[1]->description }}
             </p>
           </div>
         </div>
@@ -34,9 +32,9 @@
             <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
               <i class="fas fa-users"></i>
             </div>
-            <h6 class="text-xl font-semibold">Community</h6>
+            <h6 class="text-xl font-semibold">{{ $concepts[2]->title }}</h6>
             <p class="mt-2 mb-4 text-gray-600">
-              Bukan hanya tempat belajar, tapi juga kesempatan untuk berkenalan, bertukar pikiran, dan berkolaborasi. 
+              {{ $concepts[2]->description }}
             </p>
           </div>
         </div>

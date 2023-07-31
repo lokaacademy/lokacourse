@@ -12,7 +12,8 @@
         @include('components.banner')
       </div>
       <section class="pb-20 bg-gray-300 -mt-24">
-        @include('sections.concept')
+        @include('sections.concept', ['concepts' => $concepts])
+       
       </section>
       <section class="relative py-20">
         @include('sections.portofolio')
