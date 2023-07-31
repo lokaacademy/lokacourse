@@ -8,7 +8,9 @@
         <link rel="apple-touch-icon" sizes="76x76" href="assets/images/loka-icon.jpg"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}"> 
+        {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
+        @vite('resources/css/app.css')
+        @vite('resources/js/app.js')
 
         <!-- Meta tags for sharing on social media -->
         <meta property="og:title" content="Loka Academy">
