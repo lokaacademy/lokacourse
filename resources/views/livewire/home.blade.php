@@ -4,7 +4,11 @@
     </x-slot>
    
     <main>
-      <div class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-center px-2 py-3 ">
+      
+      <div>
+       {{-- @include('components.topnav') --}} 
+      </div>
+      <div class="top-50 absolute z-50 w-full flex flex-wrap items-center justify-center px-2 py-3 ">
           @include('sections.logo')
       </div>
         

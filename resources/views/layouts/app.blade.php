@@ -11,6 +11,7 @@
         {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
         @vite('resources/css/app.css')
         @vite('resources/js/app.js')
+        
 
         <!-- Meta tags for sharing on social media -->
         <meta property="og:title" content="Loka Academy">
